@@ -12,21 +12,21 @@ export const profile = {
   email: "chandanpanigrahi916@example.com",
   resumeUrl: "/resume.pdf",
   availability: "Open to new opportunities",
-  version: "v1.0.0",
+  version: "developer_mode",
   socials: [
     { label: "GitHub", href: "https://github.com/chandanpanigrahi45", icon: "github" },
     { label: "LinkedIn", href: "https://linkedin.com/in/chandan-panigrahi-38b153358", icon: "linkedin" },
-    { label: "Twitter", href: "https://twitter.com/yourusername", icon: "twitter" },
+    { label: "Twitter", href: "https://x.com/P_Chandan_", icon: "twitter" },
   ],
 };
 
 export const navTabs = [
-  { id: "home", label: "hero.tsx" },
-  { id: "about", label: "about.md" },
-  { id: "skills", label: "skills.json" },
-  { id: "projects", label: "projects" },
-  { id: "experience", label: "experience.log" },
-  { id: "contact", label: "contact.sh" },
+  { id: "home", label: "Home" },
+  { id: "about", label: "About Me" },
+  { id: "skills", label: "Skills" },
+  { id: "projects", label: "Projects" },
+  { id: "experience", label: "Experience" },
+  { id: "contact", label: "Contact" },
 ];
 
 export const about = {
@@ -69,21 +69,21 @@ export const skillGroups = [
 
 export const projects = [
   {
-    title: "Realtime Chat Platform",
+    title: "Portfolio Website",
     description:
-      "A multi-room chat application with live presence, typing indicators, and message history, built on Socket.io with a Node/Express backend and a React client.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    live: "https://example.com",
-    code: "https://github.com/yourusername/realtime-chat",
+      "A responsive portfolio website showcasing my work and skills, built with React and styled with Tailwind CSS.",
+    tech: ["React", "Tailwind CSS", "Vite","node.js","mongoDB"],
+    live: "https://chandan-panigrahi-dev.onrender.com",
+    code: "https://github.com/chandanpanigrahi45/my-portfolio",
     status: "shipped",
   },
   {
-    title: "E-commerce Storefront",
+    title: "Library_Management_System",
     description:
-      "A full-stack storefront with product search, cart, and Stripe checkout. Includes an admin dashboard for managing inventory and orders.",
-    tech: ["Next.js", "Express", "PostgreSQL", "Stripe"],
+      "A backend-based Library Management System built with Node.js, Express. Supports CRUD operations for managing books and handling requests via Thunder Client.",
+    tech: ["Node.js", "Express", "CRUD", "Middleware"],
     live: "https://example.com",
-    code: "https://github.com/yourusername/ecommerce-storefront",
+    code: "https://github.com/chandanpanigrahi45/Library_management_system/tree/main",
     status: "shipped",
   },
   {

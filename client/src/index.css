@@ -34,12 +34,13 @@ body {
 
 /* subtle grid texture on the background */
 .bg-grid {
+  background-size: 40px 40px;
+  /* Grid ka size */
   background-image:
-    linear-gradient(to right, var(--color-line) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--color-line) 1px, transparent 1px);
-  background-size: 64px 64px;
-  background-position: center top;
-  mask-image: linear-gradient(to bottom, black, transparent 85%);
+    linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-repeat: repeat;
+  /* 👈 Ye hona bohot zaroori hai! */
 }
 
 /* blinking cursor used in the hero */
@@ -50,8 +51,16 @@ body {
 }
 
 @keyframes blink {
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
+
+  0%,
+  49% {
+    opacity: 1;
+  }
+
+  50%,
+  100% {
+    opacity: 0;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -59,6 +68,7 @@ body {
     animation: none;
     opacity: 1;
   }
+
   html {
     scroll-behavior: auto;
   }
@@ -80,9 +90,11 @@ body {
 ::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--color-ink);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--color-surface-2);
   border-radius: 6px;
