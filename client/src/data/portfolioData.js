@@ -10,7 +10,7 @@ export const profile = {
     "I build fast, accessible web applications — from pixel-perfect UI to the APIs behind them.",
   location: "Surat, India",
   email: "chandanpanigrahi916@example.com",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/my-resume.pdf",
   availability: "Open to new opportunities",
   version: "developer_mode",
   socials: [

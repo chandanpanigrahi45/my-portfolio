@@ -1,5 +1,5 @@
 # my-portfolio
-😎 Welcome to my portfolio! I am a final-year Computer Engineering student dedicated to building modern digital solutions. My expertise lies in designing seamless user experiences and powerful backends using MongoDB, Express, React, and Node.js.
+😎 Welcome to my portfolio! I am a final-year Computer Engineering student dedicated to building modern digital solutions. My expertise lies in designing seamless user experiences and powerful backends using MongoDB, Express, React, and Node.js.in This port-folio i also give the instructions from gemini how to use it with detail
 
 # Developer Portfolio — React + Node/Express
 
@@ -104,17 +104,7 @@ Almost everything on the page is driven by one file:
 **`client/src/data/portfolioData.js`**
 
 Edit this to update:
-- your name, role, tagline, location, email, resume link, and social links
-- the About section bio and "facts" panel
-- skill groups and the tags inside them
-- your projects (title, description, tech tags, live/code links, status)
-- your work experience timeline
-- the contact section heading/subheading
 
-### Adding your resume
-
-Drop your resume file into `client/public/resume.pdf` — the "resume.pdf"
-buttons in the nav bar and hero already link to `/resume.pdf`.
 
 ### Changing colors and fonts
 
